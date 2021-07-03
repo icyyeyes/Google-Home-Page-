@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -100%);
+}
+
+.logo{
+    width: 350px;
+    top: -5px;
+    left: -30px;
+    position: relative;
+}
+
+.searchbar{
+    width: 500px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-20%, -90%);
+}
+
+.searchb{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    top: 309px;
+    left: 430px;
+    font-size: 18px;
+    text-align: left;
+    padding: 0 40px 0 40px;
+    outline: 0;
+}
+
+.searchi{
+    position: absolute;
+    z-index: 1;
+    font-size: 21px;
+    top: 278px;
+    left: 343px;
+}
+
+.mic{
+    position: absolute;
+    max-width: 30px;
+    top: 276px;
+    left: 780px;
+}
+
+.a{
+    position: absolute;
+    top: 16px;
+    right: 190px;
+}
+
+.b{
+    position: absolute;
+    top: 16px;
+    right: 130px;
+
+}
+
+
+.doticon {
+  position: absolute;
+  top: 15px;
+  right:90px;
+  max-width: 22px;
+}
+
+
+.Nlogo{
+position: absolute;
+top: 6px;
+right: 22px;
+max-width: 35px;
+border: 3px solid black;
+border-radius: 50%;
+}
+
+#btn1{
+    position: absolute;
+    top: 335px;
+    left: 400px;
+    max-width: 105px;
+}
+
+#btn2{
+    position: absolute;
+    top: 335px;
+    left: 600px;
+    max-width: 140px;
+}
+
+.offer{
+    position: absolute;
+    top: 355px;
+    left: 335px;
+    font-size: 15px;
+}
+
+.offerlinks{
+    position: absolute;
+    top: 370px;
+    left: 460px;
+    word-spacing: 5px;
+    font-size: 13px;
+
+}
+
+
+.india{
+    position: absolute;
+    top: 475px;
+    left: 0px;
+    background-color: #f2f2f2;
+    border-top: 1px solid black;
+    padding-left: 60px;
+    padding-right: 1075px;
+    font-size: 13px;
+}
+
+.help{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 510px;
+    left: 3px;
+    border-top: 1px solid black;
+    background-color: #f2f2f2;
+    padding-right: 770px;
+    padding-left: 10px;
+}
+
+.help p{
+    padding-right: 25px; 
+    display: flex;
+    font-size: 13px;
+}
+
+.others{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    top:510px;
+    left: 812px;
+    right: 1px;
+    padding-right: 105px;
+    padding-left: 35px;
+    border-top: 1px solid black;
+    background-color: #f2f2f2;
+}
+
+.others p{
+    padding-right: 25px;
+ 
+    font-size: 13px;
+    
+}
